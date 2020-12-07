@@ -11,6 +11,7 @@ var gulp = require("gulp"),
   autoprefixer = require("gulp-autoprefixer"),
   browserSync = require("browser-sync").create();
 
+  sass.compiler = require('sass');
 // Clean task
 gulp.task("clean", function() {
   return del(["dist", "assets/css/app.css"]);
