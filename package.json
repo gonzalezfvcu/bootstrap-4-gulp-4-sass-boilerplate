@@ -21,7 +21,9 @@
     "gulp-sass": "^4.1.0",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2",
-    "merge-stream": "^1.0.1"
+    "install": "^0.13.0",
+    "merge-stream": "^1.0.1",
+    "sass": "^1.30.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
